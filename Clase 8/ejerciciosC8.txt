@@ -1,0 +1,140 @@
+
+
+//EJERCICIO 1
+
+function numeroPar(numero){
+    return numero==2 || numero==4 || numero==6 || numero==8 || numero==10;
+   
+if (numeroPorEvaluar <0 && numeroPorEvaluar <=10){
+  call numeroPar(numeroPorEvaluar)
+}
+
+
+
+//EJERCICIO 2
+
+function nacionArgentina(nacionalidad){
+  return nacionalidad = 'argentino';
+
+isResultado = call nacionArgentina(nacionalidadPersona);
+if(isResultado = true){
+  decir 'Che'
+  decir nombre
+} else {
+  decir nombre
+}
+
+
+//EJERCICIO 2 CON LISTA
+
+listaParticipantes=['fernanda argentina', 'andrea uruguay', 'carlos argentina'];
+
+for (indice=0, indice<longitudListaParticipantes, indice + 1){
+  if(nacionalidadListaParticipantes [indice] = 'argentina'){
+  decir 'Che'
+  decir nombre
+} else {
+  decir nombre
+}
+  
+  
+//EJERCICIO 3
+function evaluarResultados(importaciones, exportaciones){
+  if (importaciones<exportaciones){
+    resultado = 'bien'
+  }else if(importaciones == exportaciones){
+    resultado = 'igual'
+    }else {
+    resultado = 'mal'
+  }
+return resultado
+}
+  
+function ajustarSueldo (criterioDeAjuste){
+  if (criterioDeAjuste == 'igual'){
+	return
+	} else if (criterioDeAjuste == 'bien'){
+    	sueldo = sueldo * 1.02
+  	}else if(criterioDeAjuste == 'mal'){
+   	 sueldo = sueldo / 1.01 
+  }  
+}  
+  
+result = call evaluarResultados(importacionesDelMes, exportacionesDelMes); 
+call ajustarSueldo(result)
+
+
+
+
+
+EJERCITACION 2 (DESAFIO)
+Reglas del mundial:
+
+Fase de grupos: 
+Hay 8 grupos de 4 equipos elegidos por sorteo (nosotros teniamos el grupo B con Irán; Marruecos y Portugal).
+Para pasar a la fase siguiente hay que jugar con los otros de tu grupoy conseguir más puntos que ellos. Ganar da 3 puntos y empatar da 1 punto. Los dos equipos con más puntos, pasan. Los otros dos quedan afuera.
+Octavos: 
+
+Semifinal: Hay 4 equipos, juegan 2 y dos, los ganadores juegan la final, los perdedores juegan por 3 y 4 puesto.
+Final: se enfrentan 2 equipos, el que gana es campeon, el otro es 2do
+
+
+//EJERCITACION 2
+
+miEquipo = argentina
+
+eliminatorias, primera fase, octavos, cuartos, semifinal, final
+
+//55 paises divididos en 10 grupos, los ganadores de los 10 grupos clasifican en forma directa, los 10 paises ubicados en los segundos puestos formaran nuevos 3 grupos de 4 selecciones, se completan con los ganadores de la copa de las naciones de la uefa, con final four (es decir que habra semifinales y finales en cada uno de los grupos), de las 3 finales salen los 3 equipos para completar los 13 cupos(13 cupos disponibles para europa). hay un cupo por continente. 
+//hay cupo para cada conferedacion. 13 para europa, afc 4,5 - caf 5 cupos - concacaf 3.5 - conmebol 4.5 - organizador 1, ofc 0.5 cupos. salen 32 clasificados.
+
+function eliminatorias (){
+return resultadoEliminatorias
+}
+//sorteo para los grupos
+
+//hay 8 grupos de 4 equipos (32 equipos), terminan quedando 16 equipos, es decir, sale el ganador del grupo, por puntaje
+function faseDeGrupos (){
+  return resultadoFaseDeGrupos
+}
+
+//hay 16 equipos, juega el mejor del grupo a con el 2do del grupo b, quedan 4 equipos
+function octavos (){
+  return resultadoOctavos
+}
+
+
+
+
+//son 4 equipos, juegan de a pares, el que gana pasa a semifinal, los que no, pasan a 3 o 4 puesto
+function cuartos(miEquipo, equipoRival){
+  if (golesMiEquipo>golesEquipoRival){
+    ganadorCuartos = miEquipo;
+    //equipoganador jugará la semifinal y otro jugara por 3 y 4 puesto.
+    return ganadorCuartos;
+   }
+  ganadorCuartos = equipoRival;
+  return ganadorCuartos
+}
+
+
+
+//juegan 2 equipos (hago para 3 y 4 puesto?)
+
+function semifinal (miEquipo, equipoRival){
+  if (golesMiEquipo>golesEquipoRival){
+    ganadorSemifinal = miEquipo;
+    //
+    return ganadorSemifianl;
+   }
+  ganadorSemifinal = equipoRival;
+  return ganadorSemifinal
+}
+
+function final (miEquipo, equipoRival){
+  if (golesMiEquipo>golesEquipoRival){
+    mi equipo es campeon del mundo! 
+    return;
+   }
+}
+

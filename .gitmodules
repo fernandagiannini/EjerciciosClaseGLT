@@ -1,3 +1,15 @@
 [submodule "Clase 11"]
 	path = Clase 11
 	url = ./Clase 11
+[submodule "Clase 12"]
+	path = Clase 12
+	url = ./__dev/Clase 12
+[submodule "Clase 13"]
+	path = Clase 13
+	url = ./__dev/Clase 13
+[submodule "Clase 14"]
+	path = Clase 14
+	url = ./__dev/Clase 14
+[submodule "Clase 16"]
+	path = Clase 16
+	url = ./__dev/Clase 16

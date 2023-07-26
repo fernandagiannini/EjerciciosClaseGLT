@@ -1,0 +1,50 @@
+if(temperatura > 28 && isPuertasCerradas) {
+  Prendo el aire acondicionado
+}
+
+
+if(temperatura >28 && isPuertasCerradas) {
+  Prendo el aire acondicionado
+} else {
+  Prendo el ventilador
+}
+
+
+
+if(temperatura >28 && isPuertasCerradas) {
+  Prendo el aire acondicionado
+} else if (temperatura > 28 && !isPuertasCerradas) {
+  Cierro las puertas
+  Prendo el aire acondicionado
+}
+
+
+while (isHaceCalor || isHayHumedad) {
+  Prendo el aire acondicionado
+}
+
+miNivelIngles = 0;
+do {
+  Estudio inglés
+  Apruebo el examen
+  miNivelIngles = miNivelIngles + 1
+} while(miNivelIngles < 2)
+//Estudio ingles hasta llegar al nivel intermedio siendo: nivel inicial = 1 y nivel intermedio = 2
+
+
+for(minivelIngles=0; miNivelIngles>2; miNivelIngles = miNivelIngles + 1){
+  Estudio inglés
+  Apruebo el examen
+}
+
+
+COMBINADOS
+
+if (miNivelIngles=0){
+  do {
+  Estudio inglés
+  Apruebo el examen
+  miNivelIngles = miNivelIngles + 1
+} while(miNivelIngles < 2)
+}
+

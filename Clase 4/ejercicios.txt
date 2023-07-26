@@ -1,0 +1,17 @@
+
+Ejercicios para la casa - FERNANDA GIANNINI
+ 
+1) True || (1>3) && (10==5) => 
+  True || ...............  => True
+
+2) !(5<5) && (40%10==0) && !(False) || (2**3>=11) =>
+    False &&   True     && True     ||  False	  => True
+
+3) (33%2==0) || (2**3 +1==9) || (4>=4) && False =>
+   False     ||  True        || True   && False =>
+   False     ||   True       || False           => True
+
+4) Es fin de semana? && (esta soleado? || esta nublado?) => True (ando en bici), False (no ando en bici)
+
+5)La frutas estan frescas? && (precio <= mi presupuesto) => true (las compro), false (no las compro)
+
